@@ -12,3 +12,9 @@ const personalMovieDB = {
     genres: [],
     privat: false
 };
+
+// Third task
+const lastSeenMovie = prompt("Один из последних просмотренных фильмов?"); 
+const lastSeenMovieRate = prompt("На сколько оцените его?");
+personalMovieDB.movies[lastSeenMovie] = lastSeenMovieRate; 
+console.log(personalMovieDB);
