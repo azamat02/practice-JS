@@ -14,7 +14,11 @@ const personalMovieDB = {
 };
 
 // Third task
-const lastSeenMovie = prompt("Один из последних просмотренных фильмов?"); 
-const lastSeenMovieRate = prompt("На сколько оцените его?");
-personalMovieDB.movies[lastSeenMovie] = lastSeenMovieRate; 
+let a = prompt("Один из последних просмотренных фильмов?"), 
+    b = prompt("На сколько оцените его?"),
+    c = prompt("Один из последних просмотренных фильмов?"), 
+    d = prompt("На сколько оцените его?");
+
+personalMovieDB.movies[a] = b; 
+personalMovieDB.movies[c] = d; 
 console.log(personalMovieDB);
