@@ -1,7 +1,7 @@
 "use strict";
 
 // First task
-const numberOfFilms = prompt("Сколько фильмов вы уже посмотрели?");
+const numberOfFilms = +prompt("Сколько фильмов вы уже посмотрели?");
 console.log(numberOfFilms);
 
 //Second task
